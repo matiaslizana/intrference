@@ -107,7 +107,7 @@ copy /Y "$(TargetPath)" ..\bin</Command>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
     <PostBuildEvent>
-      <Command>copy /Y "$(TargetPath)" "./_builds/Final"</Command>
+      <Command>copy /Y "$(TargetPath)" "C:\Program Files\FMOD SoundSystem\FMOD Studio 2.00.06\plugins\intrference"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
